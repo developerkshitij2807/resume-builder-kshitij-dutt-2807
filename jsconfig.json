@@ -4,7 +4,8 @@
       "@/*": ["./src/*"],
       "@/lib/*": ["./lib/*"],
       "@/utils/*": ["./utils/*"],
-      "@/graphql/*": ["./graphql/*"]
+      "@/graphql/*": ["./graphql/*"],
+      "@/components/*":["./components/*"]
     }
   }
 }
