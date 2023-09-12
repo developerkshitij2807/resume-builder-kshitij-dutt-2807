@@ -1,11 +1,12 @@
-import AutoTrackingSystemTemplate from '@/components/templates/AutoTrackingSystem'
+
 import React from 'react'
+import AutoTrackingSystemTemplate from '@/src/components/templates/AutoTrackingSystem'
 
 const ATS = () => {
   return (
     <>
-    <title>Auto Tracking System Page</title>
-    <AutoTrackingSystemTemplate />
+      <title>Auto Tracking System Page</title>
+      <AutoTrackingSystemTemplate />
     </>
   )
 }
