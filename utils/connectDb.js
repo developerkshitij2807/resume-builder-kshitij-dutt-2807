@@ -1,8 +1,6 @@
 import mongoose from "mongoose";
-
-
 // define MongoDB Url in the environment variables
-const localUri = process.env.MONGODB_URL;
+const localUri = process.env.DATABASE_URL.replace("<username>", process.env.DATABASE_USER).replace("<password>", process.env.DATABASE_PASSWORD);
 const connection = {};
 export async function connectDb() {
   if (connection.isConnected) {
